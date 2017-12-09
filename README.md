@@ -1,6 +1,28 @@
 1. Identificação:
  Otavio Augusto Ferreira Rodrigues 201276030 Sistemas de informação
+Trabalho 2
 
+2. Protocolo de persistência desenvolvido:
+	Para realizar a persistêcia de dados no primeiro trabalho, foram utilizados quatro arquivos de texto .txt. Dois para inicialização dos dados e dois para guardas os dados gerados da utilização do programa.
+	INICIALIZAÇÃO
+	- mesas.txt
+	- itenscardapio.txt
+	PERSISTÊNCIA
+	- comandas.txt
+	- itenscomanda.txt
+Protocolos de cada Arquivo:
+
+MESAS.TXT
+1ª linha: numero da mesa
+2ª linha: 0/1; 0=fechado e 1=aberto
+3ª linha: data de abertura
+4ª linha: data de fechamento
+
+
+
+
+
+Trabalho 1
 2. Descrição:
 	Esse sistema foi feito para controlar os pedidos de um resturante e calcular os valor das comandas no fechamento delas.
 	O sistema também controla o status das mesas (Aberto, Fechado), uma mesa aberta pode abrir comandas onde são guardados os pedidos nela inseridos,
