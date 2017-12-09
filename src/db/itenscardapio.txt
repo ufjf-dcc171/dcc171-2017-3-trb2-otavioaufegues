@@ -1,0 +1,32 @@
+1
+Água Mineral
+2,5
+
+2
+Refrigerante
+3,0
+
+3
+Cerveja
+8,5
+
+4
+Caipirinha
+10
+
+5
+Pizza
+23,9
+
+6
+Espetinho
+7
+
+7
+Hamburger
+15,7
+
+8
+Batata Frita
+19,9
+
