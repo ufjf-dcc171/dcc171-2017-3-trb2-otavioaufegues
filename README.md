@@ -1,5 +1,6 @@
 1. Identificação:
  Otavio Augusto Ferreira Rodrigues 201276030 Sistemas de informação
+
 Trabalho 2
 
 2. Protocolo de persistência desenvolvido:
@@ -10,6 +11,7 @@ Trabalho 2
 	PERSISTÊNCIA
 	- comandas.txt
 	- itenscomanda.txt
+
 Protocolos de cada Arquivo:
 
 MESAS.TXT
@@ -18,8 +20,43 @@ MESAS.TXT
 3ª linha: data de abertura
 4ª linha: data de fechamento
 
+ex: 
+3 <- nr mesa
+1 <- aberto 
+2017-12-10 01:21:28 <- data e hora de abertura
+- <- data e hora de fechamento 
 
+ITENSCARDAPIO.TXT
+1ª linha: código do item
+2ª linha: nome do item
+3ª linha: valor do item
 
+ex: 
+2
+Refrigerante
+3,0
+    
+COMANDAS.TXT
+1ª linha: numero da mesa - numero da comanda
+2ª linha: 0/1; 0=fechado e 1=aberto
+3ª linha: data de abertura
+4ª linha: data de fechamento
+
+ex:
+2-2
+0
+2017-12-09 08:46:19
+2017-12-09 08:47:00
+
+INTENSCOMANDA.TXT
+1ª linha: numero da mesa - numero da comanda
+demais linhas: 
+nr do pedido - codigo do produto - quantidade
+
+ex:
+2-2
+4-1-1
+5-2-1
 
 
 Trabalho 1
